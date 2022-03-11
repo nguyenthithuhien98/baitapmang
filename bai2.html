@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- //Bài2: Cho trước 1 mảng n phần tử. Viết code cho phép đếm xem có bao nhiêu phần tử a ( a được nhập vào tử bàn phím) -->
+<body>
+    <script>
+        let arr=[1,2,3,4,5,2]
+        let dem=0;
+        let a =prompt("nhap a:")
+        for (let i=0; i<arr.length;i++){
+            if(arr[i]==a){
+                dem+=1;
+            }
+        }
+        document.write(dem);
+    </script>
+</body>
+</html>
